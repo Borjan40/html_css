@@ -1,0 +1,77 @@
+.container{
+    border: 2px solid red;
+    min-height: 300px;
+    display: flex;
+
+    /* направление оси */
+    flex-direction: row;
+    /* flex-direction: row-reverse;
+    flex-direction: column; */
+
+    /* распределение по строкам */
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    /* распределение по штрине */
+    /* justify-content: center; */
+    justify-content: flex-start;
+    /* justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+
+    /* выравнивание элементов */
+    align-items: flex-start;
+    /* align-items: flex-end;
+    align-items: baseline;
+    align-items: center; */
+    /* align-items: stretch; */
+
+    /* строки внутри контейнера */
+    align-content: stretch;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background:orangered;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+.h200{
+    /* height: 200px; */
+}
+.h150{
+    /* height: 150px; */
+}
+.h250{
+    /* height: 250px; */
+}
+
+.test-item {
+    order: 1;
+    flex-grow: 2;
+}
+.test-item-2{
+    order: 0;
+    flex-grow: 2;
+    align-self: flex-start;
+}
+
+.container-2{
+    border: 1px solid black;
+    margin: 50px;
+    min-height: 100px;
+    display:flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item-2{
+    background: orange;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+}

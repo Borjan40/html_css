@@ -1,0 +1,30 @@
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100% ;
+    max-width: 1000px;
+} 
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+th {
+background: burlywood;
+font-style: italic;
+}
+.bg-color{
+    background-color: #00ff49 ;
+}
+.myEmail {
+    border: none;
+
+}
+
+.myEmail td, .myEmail th {
+    border: none;
+}
